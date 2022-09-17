@@ -5,6 +5,14 @@
     background: #AEC6A5;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    @media screen and (min-width: 768px) {
+                width: 224px;
+                height: 428px;
+        }
+                @media screen and (min-width: 1200px) {
+                        width: 370px;
+                        height: 535px;
+                }
 }
 
 .box2 {
@@ -13,7 +21,16 @@
     background: #EFD478;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
-}
+    @media screen and (min-width: 768px) {
+            width: 224px;
+            height: 428px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 370px;
+            height: 535px;
+        }
+    }
+
 
 .box3 {
     width: 280px;
@@ -21,4 +38,12 @@
     background: #D6936D;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    @media screen and (min-width: 768px) {
+            width: 224px;
+            height: 428px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 370px;
+            height: 535px;
+        }
 }

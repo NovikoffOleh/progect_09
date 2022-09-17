@@ -31,6 +31,11 @@ button {
   background: transparent;
 }
 
+@media screen and (min-width: 768px) {
+  .btn {
+    margin-top: 60px;
+  }
+}
 .btn :hover {
   fill: #2196F3;
 }
@@ -92,6 +97,18 @@ button {
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 }
+@media screen and (min-width: 768px) {
+  .box1 {
+    width: 224px;
+    height: 428px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box1 {
+    width: 370px;
+    height: 535px;
+  }
+}
 
 .box2 {
   width: 280px;
@@ -100,6 +117,18 @@ button {
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 }
+@media screen and (min-width: 768px) {
+  .box2 {
+    width: 224px;
+    height: 428px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box2 {
+    width: 370px;
+    height: 535px;
+  }
+}
 
 .box3 {
   width: 280px;
@@ -107,6 +136,18 @@ button {
   background: #D6936D;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .box3 {
+    width: 224px;
+    height: 428px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box3 {
+    width: 370px;
+    height: 535px;
+  }
 }
 
 .ice {
@@ -123,6 +164,16 @@ button {
   margin-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .ice {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ice {
+    font-size: 30px;
+  }
+}
 .about {
   font-family: "Seymour One";
   font-style: normal;
@@ -137,6 +188,16 @@ button {
   margin-bottom: 148px;
 }
 
+@media screen and (min-width: 768px) {
+  .about {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about {
+    font-size: 40px;
+  }
+}
 .img-ice {
   position: absolute;
   width: 200px;
@@ -145,11 +206,21 @@ button {
   right: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .img-ice {
+    right: 10px;
+  }
+}
 .cards {
   position: relative;
   width: 280px;
 }
 
+@media screen and (min-width: 768px) {
+  .cards {
+    width: 224px;
+  }
+}
 .ice-card {
   display: flex;
   flex-wrap: wrap;
@@ -157,6 +228,13 @@ button {
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .ice-card {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+}
 .name-ice-name {
   text-align: center;
 }

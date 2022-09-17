@@ -1,5 +1,4 @@
 .ice {
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -12,6 +11,17 @@
     margin-bottom: 12px;
     margin-top: 60px;
 }
+    @media screen and (min-width: 768px) {
+    .ice {
+            font-size: 22px;
+            }
+            }
+            @media screen and (min-width: 1200px) {
+            .ice {
+            font-size: 30px;
+            }
+            }
+
 
 .about {
     font-family: 'Seymour One';
@@ -26,6 +36,17 @@
     margin-top: 15px;
     margin-bottom: 148px;
 }
+@media screen and (min-width: 768px) {
+    .about {
+    font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+    font-size: 40px;
+    }
+}
 
 .img-ice {
     position: absolute;
@@ -34,10 +55,20 @@
     top: -215px;
     right: 40px;
 }
+@media screen and (min-width: 768px) {
+    .img-ice {
+        right: 10px;
+    }
+}
 
 .cards {
     position: relative;
     width: 280px;
+}
+@media screen and (min-width: 768px) {
+    .cards {
+        width: 224px;
+    }
 }
 
 .ice-card {
@@ -45,6 +76,13 @@
     flex-wrap: wrap;
     gap: 150px;
     justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .ice-card {
+        display: flex;
+            gap: 16px;
+            justify-content: center;
+    }
 }
 
 .name-ice-name {
