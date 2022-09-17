@@ -26,16 +26,21 @@ button {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  margin-top: 80px;
   border-color: transparent;
   background: transparent;
 }
-
 @media screen and (min-width: 768px) {
   .btn {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .btn {
+    margin-top: 160px;
+  }
+}
+
 .btn :hover {
   fill: #2196F3;
 }
@@ -52,7 +57,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 80px;
   }
 }
@@ -163,7 +168,6 @@ button {
   margin-bottom: 12px;
   margin-top: 60px;
 }
-
 @media screen and (min-width: 768px) {
   .ice {
     font-size: 22px;
@@ -172,8 +176,10 @@ button {
 @media screen and (min-width: 1200px) {
   .ice {
     font-size: 30px;
+    margin-top: 0;
   }
 }
+
 .about {
   font-family: "Seymour One";
   font-style: normal;
@@ -190,37 +196,51 @@ button {
 
 @media screen and (min-width: 768px) {
   .about {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 @media screen and (min-width: 1200px) {
   .about {
-    font-size: 40px;
+    font-size: 36px;
+    margin-bottom: 220px;
   }
 }
 .img-ice {
   position: absolute;
   width: 200px;
   height: 200px;
-  top: -215px;
+  top: -190px;
   right: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .img-ice {
-    right: 10px;
+    right: 11px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-ice {
+    width: 300px;
+    height: 300px;
+    right: 33px;
+    top: -283px;
   }
 }
 .cards {
   position: relative;
   width: 280px;
 }
-
 @media screen and (min-width: 768px) {
   .cards {
     width: 224px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .cards {
+    width: 370px;
+  }
+}
+
 .ice-card {
   display: flex;
   flex-wrap: wrap;
@@ -242,7 +262,7 @@ button {
 .ice-name {
   text-align: center;
   margin-bottom: 35px;
-  margin-top: 125px;
+  margin-top: 105px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -251,6 +271,18 @@ button {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #131313;
+}
+@media screen and (min-width: 768px) {
+  .ice-name {
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 115px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ice-name {
+    font-size: 30px;
+  }
 }
 
 .name {
@@ -265,4 +297,19 @@ button {
   color: #131313;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    width: 172px;
+    height: 174px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .name {
+    width: 242px;
+    height: 142px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */

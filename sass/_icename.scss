@@ -10,17 +10,14 @@
     color: #131313;
     margin-bottom: 12px;
     margin-top: 60px;
-}
-    @media screen and (min-width: 768px) {
-    .ice {
+        @media screen and (min-width: 768px) {
             font-size: 22px;
-            }
-            }
-            @media screen and (min-width: 1200px) {
-            .ice {
+        }
+        @media screen and (min-width: 1200px) {
             font-size: 30px;
-            }
-            }
+            margin-top: 0;
+        }
+        }
 
 
 .about {
@@ -38,13 +35,14 @@
 }
 @media screen and (min-width: 768px) {
     .about {
-    font-size: 36px;
+    font-size: 34px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .about {
-    font-size: 40px;
+    font-size: 36px;
+    margin-bottom: 220px;
     }
 }
 
@@ -52,24 +50,35 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    top: -215px;
+    top: -190px;
     right: 40px;
 }
 @media screen and (min-width: 768px) {
     .img-ice {
-        right: 10px;
+       right: 11px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .img-ice {
+        width: 300px;
+        height: 300px;
+        right: 33px;
+        top: -283px;
     }
 }
 
 .cards {
     position: relative;
     width: 280px;
+    @media screen and (min-width: 768px) {
+            width: 224px;
+        }
+    @media screen and (min-width: 1200px) {
+            width: 370px;
+        }
 }
-@media screen and (min-width: 768px) {
-    .cards {
-        width: 224px;
-    }
-}
+
+
 
 .ice-card {
     display: flex;
@@ -93,7 +102,7 @@
 .ice-name {
     text-align: center;
     margin-bottom: 35px;
-    margin-top: 125px;
+    margin-top: 105px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -102,6 +111,15 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #131313;
+    @media screen and (min-width: 768px) {
+            font-size: 22px;
+            margin-bottom: 25px;
+                margin-top: 115px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 30px;
+        }
 }
 
 .name {
@@ -116,4 +134,15 @@
     color: #131313;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    @media screen and (min-width: 768px) {
+            width: 172px;
+            height: 174px;
+        font-size: 14px;
+        }
+    @media screen and (min-width: 1200px) {
+            width: 242px;
+                height: 142px;
+        font-size: 16px;
+        }
 }
