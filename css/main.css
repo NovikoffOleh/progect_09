@@ -237,7 +237,9 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .cards {
-    width: 370px;
+    /*width: 370px;*/
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
