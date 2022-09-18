@@ -288,7 +288,6 @@ button {
     font-size: 30px;
   }
 }
-
 .name {
   width: 200px;
   height: 124px;
@@ -301,8 +300,9 @@ button {
   color: #131313;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  padding-top: 30px;
 }
+
 @media screen and (min-width: 768px) {
   .name {
     width: 172px;
@@ -310,10 +310,12 @@ button {
     font-size: 14px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .name {
     width: 242px;
     height: 142px;
     font-size: 16px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
