@@ -32,19 +32,15 @@
     color: #131313;
     margin-top: 15px;
     margin-bottom: 148px;
-}
-@media screen and (min-width: 768px) {
-    .about {
-    font-size: 34px;
-    }
-}
 
-@media screen and (min-width: 1200px) {
-    .about {
-    font-size: 36px;
-    margin-bottom: 220px;
-    }
-}
+    @media screen and (min-width: 768px) {
+            font-size: 34px;
+             }
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        margin-bottom: 220px;
+             }
+        }
 
 .products__img {
     position: absolute;
@@ -52,19 +48,15 @@
     height: 200px;
     top: -90px;
     right: 40px;
-}
-@media screen and (min-width: 768px) {
-    .products__img {
-       right: 11px;
+    @media screen and (min-width: 768px) {
+            right: 11px;
     }
-}
-@media screen and (min-width: 1200px) {
-    .products__img {
+    @media screen and (min-width: 1200px) {
         width: 300px;
         height: 300px;
         right: 33px;
         top: -283px;
-    }
+}
 }
 
 .products__cards {
@@ -77,14 +69,13 @@
             width: 370px;
         }
 }
+
 .products {
     display: flex;
     flex-wrap: wrap;
     gap: 150px;
     justify-content: center;
-}
 @media screen and (min-width: 768px) {
-    .products {
         display: flex;
             gap: 16px;
             justify-content: center;
@@ -93,13 +84,12 @@
 
 .products__ice-name {
     text-align: center;
-
 }
 
 .products__title {
     text-align: center;
     margin-bottom: 35px;
-    margin-top: 105px;
+    margin-top: 90px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -111,9 +101,8 @@
     @media screen and (min-width: 768px) {
             font-size: 22px;
             margin-bottom: 25px;
-                margin-top: 115px;
+            margin-top: 130px;
         }
-    
         @media screen and (min-width: 1200px) {
             font-size: 30px;
         }
