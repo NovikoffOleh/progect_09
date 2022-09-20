@@ -5,6 +5,7 @@
     background: #AEC6A5;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
+    
     @media screen and (min-width: 768px) {
                 width: 224px;
                 height: 428px;
@@ -104,6 +105,7 @@
             height: 535px;
         }
 }
+
 .products__box-brown::before {
     content: "";
     position: absolute;
@@ -116,6 +118,7 @@
     background-position: center;
     background-image: url(../img/Frame67.png);
     background-size: contain;
+    
 
     @media screen and (min-width: 220px) and (max-width: 479px) {
         transform: translate(-50%, -50%);
