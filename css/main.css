@@ -43,10 +43,12 @@ button {
 
 .products__btn :hover {
   fill: #2196F3;
+  transform: rotate(180deg);
 }
 
 .products__btn:focus {
   fill: #2196F3;
+  transform: rotate(180deg);
 }
 
 .section {
@@ -267,6 +269,9 @@ button {
   }
 }
 
+/*.products__box-brown:hover{
+transform: rotate(180deg);
+}*/
 .ice {
   font-family: "Montserrat";
   font-style: normal;

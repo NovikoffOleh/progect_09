@@ -10,6 +10,7 @@ button {
     margin-top: 80px;
     border-color: transparent;
     background: transparent;
+    
 
 @media screen and (min-width: 768px) {
         margin-top: 27px;
@@ -21,8 +22,16 @@ button {
 
 .products__btn :hover {
     fill: #2196F3;
+    transform: rotate(180deg);
+
+    
 }
 .products__btn:focus {
     fill:#2196F3;
+    transform: rotate(180deg);
 }
+
+    
+
+
  
